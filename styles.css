@@ -66,6 +66,10 @@ h1 {
   position: relative;
 }
 
+.monte {
+  cursor: pointer;
+}
+
 .option {
   background: #fff;
   padding: 30px;

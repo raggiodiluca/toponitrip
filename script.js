@@ -12,6 +12,13 @@ document.querySelectorAll(".toggle-details").forEach((button) => {
   });
 });
 
+document.querySelector(".monte").addEventListener("click", () => {
+  const heart = document.querySelector(".mice>span");
+  setTimeout(() => {
+    heart.classList.toggle("love");
+  }, 1000); // Adjust time to ensure it's after movement
+});
+
 document.addEventListener("click", (event) => {
   const miceContainer = document.querySelector(".mice-container");
   const mice = document.querySelector(".mice");
